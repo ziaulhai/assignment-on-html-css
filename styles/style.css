@@ -157,6 +157,7 @@ nav{
     gap: 100px;
     align-items:center;
     padding: 40px 0px 40px 0px;
+    margin-bottom: 100px;
 
 }
 .get-in-touch-title{
@@ -238,7 +239,7 @@ footer{
 
 .footer-logo h1{
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     font-weight:900;
     color:#4E47FF;
     margin: 0;
@@ -248,7 +249,7 @@ footer{
 .footer-subtitle{
     text-align: center;
     color: #8987A1;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 nav{
@@ -262,7 +263,7 @@ nav{
     
     list-style: none;
     color: #8987A1;
-    font-size: 20px;
+    font-size: 16px;
 }
 .footer-nav{
     padding: 10px;
@@ -272,4 +273,57 @@ nav{
     text-decoration: none;
     color: #8987A1;
 }
+
+
+/* Challanging part */
+.user-feedback{
+    margin: 0 auto;
+    height: 342px;
+    width: 1140px;
+    margin-bottom: 100px;
+}
+.user-feedback h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+
+.rvr-container{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 30px;
+       
+}
+
+.reviewer{
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    height: 230px;
+    width: 340px;
+}
+
+.rvr-info-name{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.rvr-name{
+    color: #757575;
+    font-size: 12px;
+}
+.rvr-name span {
+     color: #B3B3B3;
+     font-size: 10px;
+}
+.rvr-info{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
+}
+
+
+
 
