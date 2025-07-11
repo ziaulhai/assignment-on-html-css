@@ -13,6 +13,7 @@ main{
 }
 body{
     background-color: #F5F8FF;
+    font-family: inter;
 }
 /* Shared Style */
 .btn-primary{
@@ -44,7 +45,6 @@ nav{
     font-size: 34px;
     color: #4E47FF;
     font-weight: 900;
-    font-family: Inter;
 }
 .website-name{
     display: flex;
@@ -62,7 +62,6 @@ nav{
     font-size:30px;
     font-weight:900;
     text-align: center;
-    font-family: inter;
     margin-bottom: 85px;
     
 }
@@ -79,7 +78,6 @@ nav{
     padding: 62px 0px 62px;
 }
 .action-title h3{
-    font-family: inter;
     font-size: 42px;
     font-weight: bold;
     padding: 10px 0 10px;
@@ -88,7 +86,6 @@ nav{
     font-size: 18px;
     color:#252432;
     font-weight:normal;
-    font-family: inter;
     opacity: 50%;
     padding: 10px 0 10px;
     
@@ -104,13 +101,100 @@ nav{
     border-radius: 48px;
 }
 /* Productive User */
-
+.productive-user{
+    background-color: #E5E7FF;
+    border-radius: 24px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    
+}
 .productive-user-title{
     text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 50px 142px 20px 142px;
 }
 .users-container{
     display: flex;
     justify-content: space-evenly;
+    
+}
+.users-container ul{
+    list-style: none;
 }
 
+.title{
+    list-style: none;
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+    color:#737380;
+}
+.number {
+    font-size: 80px;
+    color:#4E47FF;
+    font-weight: bold;
+}
 
+/* Get in Touch */
+
+
+.get-in-touch{
+    display:flex;
+    justify-content:space-between;
+    gap: 100px;
+    align-items:center;
+    padding: 40px 0px 40px 0px;
+
+}
+.get-in-touch-title{
+    font-size: 80px;
+    font-weight: bold;
+  
+}
+.get-in-touch-form input[type="text"],input[type="email"]{
+    display: block;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    
+}
+.get-in-touch-form textarea{
+    width:400px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    padding:10px 20px;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+textarea::placeholder{
+    font-size: 15px;
+}
+
+.label{
+    font-size: 15px;
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+}
+.get-in-touch-bt{
+    width: 440px;
+    height: 50px;
+    border:none;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    color: white;
+   
+}
