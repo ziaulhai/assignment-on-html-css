@@ -1,0 +1,116 @@
+
+.open-sans-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    background-color: #F5F8FF;
+}
+/* Shared Style */
+.btn-primary{
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+}
+
+/* style for header */
+.header{
+   background-image: url("../assets/hero-bg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 698px;  
+
+}
+nav{
+    padding: 0px 151px 0px;
+    margin-bottom: 150px;
+}
+.website-name .logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 900;
+    font-family: Inter;
+}
+.website-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.heading{
+   text-align: center;  
+   margin-bottom: 152px;
+   padding-right: 267px;
+   padding-left: 267px;
+}
+.heading-title{
+    font-size:30px;
+    font-weight:900;
+    text-align: center;
+    font-family: inter;
+    margin-bottom: 85px;
+    
+}
+
+.stay-focused{
+    width: 174px;
+    height: 48px;  
+}
+
+/* Action Section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 0px 62px;
+}
+.action-title h3{
+    font-family: inter;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 0 10px;
+}
+.action-title p{
+    font-size: 18px;
+    color:#252432;
+    font-weight:normal;
+    font-family: inter;
+    opacity: 50%;
+    padding: 10px 0 10px;
+    
+}
+.live-preview{
+    width: 250px;
+    height: 48px;
+    font-size: 16px;
+    }
+.action-image img{
+    height:328px;
+    width:403px;
+    border-radius: 48px;
+}
+/* Productive User */
+
+.productive-user-title{
+    text-align: center;
+}
+.users-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
