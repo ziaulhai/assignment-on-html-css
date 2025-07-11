@@ -198,3 +198,52 @@ textarea::placeholder{
     color: white;
    
 }
+
+/* footer style*/
+
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 428px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 150px 455px 150px 455px;
+}
+.footer-logo h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight:900;
+    color:#4E47FF;
+    margin: 0;
+    
+
+}
+.footer-subtitle{
+    text-align: center;
+    color: #8987A1;
+    font-size: 15px;
+    margin: 0;
+    
+}
+nav{
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+}
+.navigation nav ul li{
+    
+    list-style: none;
+    color: #8987A1;
+}
+.footer-nav{
+    padding: 10px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
